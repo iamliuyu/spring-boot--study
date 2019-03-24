@@ -40,5 +40,4 @@ public interface CourseMapper {
 
     @Update("UPDATE t_course SET cover=#{cover}, finished=#{finished} WHERE course_id=#{courseId}")
     void update(Course course);
-
 }

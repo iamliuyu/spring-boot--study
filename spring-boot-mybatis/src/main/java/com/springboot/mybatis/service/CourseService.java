@@ -1,11 +1,14 @@
 package com.springboot.mybatis.service;
 
 import com.springboot.mybatis.entity.Course;
+import com.springboot.mybatis.entity.CourseVO;
 
 import java.util.List;
 
 public interface CourseService {
-    List<Course> selectAll();
+    List<CourseVO> selectAll();
+
+    List<CourseVO> selectEndAll();
 
     Course getOne(long courseId);
 
