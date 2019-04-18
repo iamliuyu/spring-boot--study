@@ -6,22 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="jianyue-api" />
         <module name="quickstart" />
         <module name="spring-boot-mybatis" />
         <module name="upload" />
+        <module name="websocket" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="jianyue-api" target="1.8" />
       <module name="quickstart" target="1.8" />
       <module name="spring-boot-mybatis" target="1.8" />
       <module name="upload" target="1.8" />
+      <module name="websocket" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jianyue-api" options="-parameters" />
       <module name="quickstart" options="-parameters" />
       <module name="spring-boot-mybatis" options="-parameters" />
       <module name="upload" options="-parameters" />
+      <module name="websocket" options="-parameters" />
     </option>
   </component>
 </project>

@@ -51,11 +51,11 @@ public class CourseServiceImplTest {
         courseService.insert(course);
     }
 
-    @Test
-    public void update() {
-        Course course = courseService.getOne(12L);
-        course.setCover("cover.jpg");
-        course.setFinished((short) 0);
-        courseService.update(course);
-    }
+//    @Test
+//    public void update() {
+//        Course course = courseService.getOne(12L);
+//        course.setCover("cover.jpg");
+//        course.setFinished((short) 0);
+//        courseService.update(course);
+//    }
 }

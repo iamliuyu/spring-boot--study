@@ -31,6 +31,7 @@ public class UploadController {
 
     @PostMapping("upload")
     public String fileUpload(@RequestParam("file") MultipartFile srcFile, RedirectAttributes redirectAttributes) {
+        String returnFileName = "";
         //前端没有选择文件，srcFile为空
         if (srcFile.isEmpty()) {
             redirectAttributes.addFlashAttribute("message", "请选择一个文件");
@@ -47,7 +48,8 @@ public class UploadController {
             System.out.println("file path:" + destFile.getAbsolutePath());
             //拼接子路径，以时间日期创建文件夹
             Date date = new Date();
-            File upload = new File(destFile.getAbsolutePath(), "upload/" + new SimpleDateFormat("yyyyMMdd/").format(date));
+            String dateFile = new SimpleDateFormat("yyyyMMdd/").format(date);
+            File upload = new File(destFile.getAbsolutePath(), "upload/" + dateFile);
             //若目标文件夹不存在，则创建
             if (!upload.exists()) {
                 upload.mkdirs();
@@ -55,7 +57,7 @@ public class UploadController {
             //使用uuid重命名文件
             String fileName = srcFile.getOriginalFilename();
             String fileExtension = fileName.substring(fileName.lastIndexOf("."), fileName.length());
-            System.out.println("完整的上传路径：" + upload.getAbsolutePath() + "/" + fileExtension);
+            System.out.println("完整的上传路径：" + dateFile + upload.getAbsolutePath() + "/" + fileExtension);
             //根据srcFile大小，准备一个字节数组
             byte[] bytes = srcFile.getBytes();
             //拼接上传路径
@@ -65,10 +67,11 @@ public class UploadController {
             //** 开始将源文件写入目标地址
             Files.write(path, bytes);
             redirectAttributes.addFlashAttribute("message", "文件上传成功" + UUIDUtil.getUUID32() + fileExtension);
+            returnFileName = "http://loaclhost:8081/upload/" + dateFile + UUIDUtil.getUUID32() + fileExtension;
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return "redirect:upload_status";
+        return returnFileName;
     }
 
     //匹配upload_status页面
