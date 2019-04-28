@@ -7,14 +7,29 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/main/java/com/springboot/mybatis/controller/UploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis/src/test/java/com/springboot/mybatis/service/impl/CourseServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis/src/test/java/com/springboot/mybatis/service/impl/CourseServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianyue-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jianyue-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/JianyueApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/JianyueApiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/config/WebMvcConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/UploadController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper/ArticleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/MailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/impl/MailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianyue-api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/jianyue-api/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/quickstart/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-mybatis/target/" />
     <ignored path="$PROJECT_DIR$/upload/target/" />
     <ignored path="$PROJECT_DIR$/jianyue-api/target/" />
     <ignored path="$PROJECT_DIR$/websocket/target/" />
+    <ignored path="$PROJECT_DIR$/jsoup/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +59,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/springboot/websocket/controller/WebSocketController.java">
+        <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller_back/ConfigController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="342">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,83 +70,104 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller_back/WsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller_back/SystemHrController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/config/CustomMetadataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-229">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/config/WebMvcConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/config/WebSocketConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller_back/RegLoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/config/UrlAccessDecisionManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="24" column="67" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller_back/ChatController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="-437">
+              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jianyue-api/src/test/java/com/springboot/jianyue/api/service/impl/ArticleServiceImplTest.java">
+        <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/config/WebSecurityConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="41" column="37" lean-forward="true" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="66" column="39" lean-forward="true" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/FollowController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/CommentController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/CollectController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/impl/ImgServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/ImgController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/UploadController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+            <state relative-caret-position="-1573">
+              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,6 +181,7 @@
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -162,9 +199,18 @@
       <find>workbook</find>
       <find>dateCellStyle</find>
       <find>insert</find>
+      <find>my</find>
+      <find>sang</find>
+      <find>webs</find>
+      <find>login</find>
+      <find>系统</find>
+      <find>hr</find>
+      <find>请求</find>
+      <find>update</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Liuyu\Desktop\repositories\spring-boot-study\jianyue-api\target</dir>
+      <dir>C:\Users\Liuyu\Desktop\repositories\spring-boot-study\jianyue-api\src\main\java\com\springboot\jianyue\api</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -173,57 +219,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/entity/vo/ArticleVO.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper/CommentMapper.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/entity/vo/CommentVO.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/StringUtil.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper/FollowMapper.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/entity/vo/FollowVO.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/FollowService.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/impl/FollowServiceImpl.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/FollowController.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/entity/Collect.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper/ColloectMapper.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/entity/Article.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/CollectService.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/impl/CollectServiceImpl.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/CollectController.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/TimeTask/TimeTask.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/TimeTask/ScheduledExecutorService.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/TimeTask/ScheduledService.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/TimeTask/MailService.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/JianyueApiApplication.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/TimeTask/MailServiceImpl.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/TimeTask/TaskService.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/excel/ExcelTask.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/excel/ExcelTask.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper/ArticleMapper.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/ArticleService.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/impl/ArticleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/ArticleController.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/pom.xml" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/MsgConst.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/StatusConst.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/UserService.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/test/java/com/springboot/jianyue/api/service/impl/UserServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/poi/PoiUtils.java" />
-        <option value="$PROJECT_DIR$/websocket/pom.xml" />
-        <option value="$PROJECT_DIR$/websocket/src/main/java/com/springboot/websocket/config/WebSocketConfig.java" />
-        <option value="$PROJECT_DIR$/websocket/src/main/java/com/springboot/websocket/controller/WebSocketController.java" />
-        <option value="$PROJECT_DIR$/websocket/src/main/java/com/springboot/websocket/config/WebSocketServer.java" />
-        <option value="$PROJECT_DIR$/websocket/src/main/java/com/springboot/websocket/WebsocketApplication.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/MailServiceImpl.java" />
-        <option value="$PROJECT_DIR$/upload/src/main/java/com/springboot/upload/controller/UploadController.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/TimeTask/MailServiceImpl.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/MailService.java" />
+        <option value="$PROJECT_DIR$/jsoup/src/test/java/com/springboot/jsoup/WeiboHotTest.java" />
+        <option value="$PROJECT_DIR$/jsoup/src/main/java/com/springboot/jsoup/WeiboHot.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/entity/Manager.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/entity/Role.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/entity/Menu.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/entity/MenuMeta.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper_back/ManagerMapper.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/ManagerUtils.java" />
         <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/impl/MailServiceImpl.java" />
         <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/MailController.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/test/java/com/springboot/jianyue/api/service/impl/ArticleServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/UploadController.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service_back/ManagerService.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/entity_back/Hr.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/entity_back/Menu.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/entity_back/MenuMeta.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/entity_back/Role.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper_back/HrMapper.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper_back/MenuMapper.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper_back/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper_back/HrMapper.xml" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper_back/MenuMapper.xml" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper_back/MenuRoleMapper.xml" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper_back/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service_back/MenuRoleService.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service_back/RoleService.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/HrUtils.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service_back/HrService.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service_back/MenuService.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/config/RespBean.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/config/UrlAccessDecisionManager.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/config/DateConverter.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/DateConverter.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/RespBean.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/config/AuthenticationAccessDeniedHandler.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/config/WebMvcConfig.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/JianyueApiApplication.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/config/CustomMetadataSource.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/jianyue-api/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/jianyue-api/pom.xml" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/config/WebSocketConfig.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller_back/ConfigController.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller_back/RegLoginController.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/util_back.fxml" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util_back/SysMsg.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller_back/WsController.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service_back/SysMsgService.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller_back/ChatController.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/UserService.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -268,11 +314,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="-10" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="856" />
+    <option name="y" value="52" />
     <option name="width" value="940" />
-    <option name="height" value="1090" />
+    <option name="height" value="869" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -282,7 +328,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -324,7 +369,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="api" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jianyue-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="controller_back" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jianyue-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
@@ -354,12 +417,21 @@
             </path>
             <path>
               <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="quickstart" type="462c0819:PsiDirectoryNode" />
+              <item name="jianyue-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -378,28 +450,34 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.springboot.jsoup" />
       <recent name="com.springboot.jianyue.api.service.impl" />
       <recent name="com.springboot.mybatis.service.impl" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.springboot.jianyue.api.controller" />
-      <recent name="com.springboot.mybatis.controller" />
-      <recent name="com.springboot.mybatis.uitl" />
-      <recent name="com.springboot.mybatis.entity" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.springboot.jianyue.api.service" />
       <recent name="com.springboot.jianyue.api.service.impl" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.springboot.jianyue.api.service_back" />
+      <recent name="com.springboot.jianyue.api.util" />
+      <recent name="com.springboot.jianyue.api.config" />
+      <recent name="com.springboot.jianyue.api.controller" />
+      <recent name="com.springboot.mybatis.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Liuyu\Desktop\repositories\spring-boot-study\websocket\src\main\java\com\springboot\websocket\controller" />
-      <recent name="C:\Users\Liuyu\Desktop\repositories\spring-boot-study\websocket\src\main\java\com\springboot\websocket\config" />
+      <recent name="C:\Users\Liuyu\Desktop\repositories\spring-boot-study\jianyue-api\src\main\java\com\springboot\jianyue\api\util_back" />
+      <recent name="C:\Users\Liuyu\Desktop\repositories\spring-boot-study\jianyue-api\src\main\java\com\springboot\jianyue\api\controller_back" />
+      <recent name="C:\Users\Liuyu\Desktop\repositories\spring-boot-study\jianyue-api\src\main\resources" />
+      <recent name="C:\Users\Liuyu\Desktop\repositories\spring-boot-study\jianyue-api\src\main\java\com\springboot\jianyue\api" />
+      <recent name="C:\Users\Liuyu\Desktop\repositories\spring-boot-study\jianyue-api\src\main\java\com\springboot\jianyue\api\service_back" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -415,9 +493,9 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.JianyueApiApplication">
-    <configuration name="TaskService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.springboot.jianyue.api.util.TimeTask.TaskService" />
-      <module name="jianyue-api" />
+    <configuration name="WeiboHot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.springboot.jsoup.WeiboHot" />
+      <module name="jsoup" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -469,6 +547,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JsoupApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jsoup" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.jsoup.JsoupApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuickstartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="quickstart" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.springboot.quickstart.QuickstartApplication" />
@@ -503,19 +588,20 @@
       <item itemvalue="Spring Boot.UploadApplication" />
       <item itemvalue="Spring Boot.JianyueApiApplication" />
       <item itemvalue="Spring Boot.WebsocketApplication" />
-      <item itemvalue="Application.TaskService" />
+      <item itemvalue="Spring Boot.JsoupApplication" />
       <item itemvalue="JUnit.ArticleServiceImplTest.insertArticle" />
       <item itemvalue="JUnit.ArticleServiceImplTest.exportArticle" />
       <item itemvalue="JUnit.ArticleServiceImplTest.deleteArticleById" />
       <item itemvalue="JUnit.UserServiceImplTest.getUserByMobile" />
+      <item itemvalue="Application.WeiboHot" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WeiboHot" />
         <item itemvalue="JUnit.ArticleServiceImplTest.insertArticle" />
         <item itemvalue="JUnit.UserServiceImplTest.getUserByMobile" />
         <item itemvalue="JUnit.ArticleServiceImplTest.deleteArticleById" />
         <item itemvalue="JUnit.ArticleServiceImplTest.exportArticle" />
-        <item itemvalue="Application.TaskService" />
       </list>
     </recent_temporary>
   </component>
@@ -565,7 +651,10 @@
       <workItem from="1555287320954" duration="31456000" />
       <workItem from="1555458807991" duration="43000" />
       <workItem from="1555458877259" duration="15820000" />
-      <workItem from="1555545674135" duration="1667000" />
+      <workItem from="1555545674135" duration="7127000" />
+      <workItem from="1555586026050" duration="3986000" />
+      <workItem from="1555824307421" duration="22734000" />
+      <workItem from="1556257541855" duration="10214000" />
     </task>
     <servers />
   </component>
@@ -602,7 +691,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="236613000" />
+    <option name="totallyTimeSpent" value="279007000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -614,10 +703,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791956" visible="true" weight="0.17622377" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791956" visible="true" weight="0.23190348" />
       <window_info id="Structure" order="1" sideWeight="0.50208044" side_tool="true" weight="0.21398601" />
       <window_info id="Web" order="2" sideWeight="0.50208044" side_tool="true" weight="0.21398601" />
       <window_info id="Designer" order="3" />
@@ -625,7 +713,7 @@
       <window_info id="Favorites" order="5" sideWeight="0.50208044" side_tool="true" weight="0.21398601" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27600554" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.51395005" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40638003" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -635,7 +723,7 @@
       <window_info anchor="bottom" id="Spring" order="9" weight="0.32871014" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32871014" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32871014" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32599118" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32871014" />
       <window_info anchor="bottom" id="Problems" order="14" weight="0.50901526" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -686,359 +774,352 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/impl/CollectServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper_back/MenuRoleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/CollectService.java">
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper_back/RoleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="57">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/TimeTask/ScheduledService.java" />
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/TimeTask/ScheduledExecutorService.java">
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper_back/MenuRoleMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="76">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/TimeTask/TaskService.java">
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service_back/ManagerService.java" />
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper_back/RoleMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="41" />
+        <state relative-caret-position="76">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/config/WebMvcConfigurer.java">
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service_back/RoleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        <state relative-caret-position="44">
+          <caret line="3" column="57" selection-start-line="3" selection-start-column="57" selection-end-line="3" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service_back/MenuRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service_back/HrService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="66" column="37" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/TimeTask/TimeTask.java">
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service_back/MenuService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="13" column="59" selection-start-line="12" selection-start-column="16" selection-end-line="13" selection-end-column="59" />
+        <state relative-caret-position="389">
+          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/excel/ExcelTask.java" />
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/ArticleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/MsgConst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/ResponseResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/SMSTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/SMSUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/StatusConst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/StringUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="88" column="42" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper/ImgMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="11" selection-start-line="11" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper/FollowMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper/ArticleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper/ColloectMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="17" column="47" lean-forward="true" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/test/java/com/springboot/jianyue/api/service/impl/UserServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/websocket/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/ArticleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="115" column="1" lean-forward="true" selection-start-line="115" selection-start-column="1" selection-end-line="115" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="64" column="1" lean-forward="true" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/config/RespBean.java" />
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/config/DateConverter.java" />
+    <entry file="file://$PROJECT_DIR$/websocket/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/src/main/java/com/springboot/upload/util/UUIDUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/upload/src/main/java/com/springboot/upload/controller/UploadController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="66" column="37" lean-forward="true" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/impl/ArticleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/JianyueApiApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="95">
+          <caret line="9" column="91" selection-start-line="9" selection-start-column="91" selection-end-line="9" selection-end-column="91" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/poi/PoiUtils.java">
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="109" column="6" lean-forward="true" selection-start-line="109" selection-start-column="6" selection-end-line="109" selection-end-column="6" />
+        <state relative-caret-position="114">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/TimeTask/MailService.java">
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/resources/static/static/js/0.35624cca2791df8b4b91.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/TimeTask/MailServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/MailController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="13" selection-start-line="13" selection-end-line="37" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jianyue-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="58" column="44" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+        <state relative-caret-position="240">
+          <caret line="132" column="21" lean-forward="true" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/websocket/pom.xml">
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util/util_back.fxml" />
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util_back/ChatResp.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util_back/MsgContent.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util_back/SysMsg.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util_back/DateConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" selection-start-line="37" selection-end-line="40" selection-end-column="21" />
+        <state relative-caret-position="27">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/springboot/websocket/config/WebSocketConfig.java">
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util_back/RespBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="19">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/util_back/HrUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/springboot/websocket/config/WebSocketServer.java">
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service_back/SysMsgService.java" />
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller_back/system/SystemBasicController.java" />
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller_back/system/SystemHrController.java" />
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/springboot/websocket/WebsocketApplication.java">
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper/ColloectMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="76">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/impl/MailServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/MailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="84" selection-start-line="10" selection-start-column="84" selection-end-line="10" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/websocket/src/main/java/com/springboot/websocket/controller/WebSocketController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/test/java/com/springboot/jianyue/api/service/impl/ArticleServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper/ArticleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
-          <caret line="41" column="37" lean-forward="true" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+          <caret line="30" column="4" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/entity/vo/ArticleVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper_back/HrMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper_back/MenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper_back/MenuMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+          <folding>
+            <element signature="e#1664#1665#0" expanded="true" />
+            <element signature="e#1710#1711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="66" column="39" lean-forward="true" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
+        <state relative-caret-position="19">
+          <caret line="53" column="32" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/FollowController.java">
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/mapper_back/HrMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="-38">
+          <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/CommentController.java">
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/config/AuthenticationAccessDeniedHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="228">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/CollectController.java">
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/config/CustomMetadataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        <state relative-caret-position="-229">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/service/impl/ImgServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/config/UrlAccessDecisionManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="19">
+          <caret line="24" column="67" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/ImgController.java">
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/config/WebMvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="208">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller/UploadController.java">
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/config/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        <state relative-caret-position="-1573">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/config/WebSocketConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        <state relative-caret-position="189">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller_back/WsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller_back/SystemHrController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller_back/RegLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller_back/ConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianyue-api/src/main/java/com/springboot/jianyue/api/controller_back/ChatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-437">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

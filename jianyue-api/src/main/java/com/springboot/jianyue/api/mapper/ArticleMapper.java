@@ -1,5 +1,6 @@
 package com.springboot.jianyue.api.mapper;
 
+import com.github.pagehelper.Page;
 import com.springboot.jianyue.api.entity.Article;
 import com.springboot.jianyue.api.entity.vo.ArticleVO;
 import org.apache.ibatis.annotations.*;
@@ -18,7 +19,7 @@ public interface ArticleMapper {
     })
     @Select("SELECT t_article.*,t_user.`nickname`,t_user.`avatar` " +
             "FROM t_article LEFT JOIN t_user ON t_article.u_id = t_user.id ORDER BY t_article.create_time DESC ")
-    List<ArticleVO> selectAll();
+    Page<ArticleVO> selectAll();
 
     @Results({
             @Result(column = "id", property = "id"),

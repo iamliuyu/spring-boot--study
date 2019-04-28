@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
-@MapperScan("com.springboot.jianyue.api.mapper")
+@MapperScan({"com.springboot.jianyue.api.mapper","com.springboot.jianyue.api.mapper_back"})
 @EnableSwagger2Doc
 @EnableScheduling
 public class JianyueApiApplication {

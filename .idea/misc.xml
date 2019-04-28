@@ -12,8 +12,12 @@
         <option value="$PROJECT_DIR$/upload/pom.xml" />
         <option value="$PROJECT_DIR$/jianyue-api/pom.xml" />
         <option value="$PROJECT_DIR$/websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/jsoup/pom.xml" />
       </list>
     </option>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/jianyue-api/src/main/resources/mybatis-config.xml" />
   </component>
   <component name="ProjectRootManager">
     <output url="file://$PROJECT_DIR$/out" />

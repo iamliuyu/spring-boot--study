@@ -29,7 +29,7 @@ public class UploadController {
     public String ossUpload(@RequestParam("file") MultipartFile sourceFile) {
         String endpoint = "http://oss-cn-shanghai.aliyuncs.com";
         String accessKeyId = "LTAInRViWgyoni06";
-        String accessKeySecret = "xxx";
+        String accessKeySecret = "Pf9dgZR0MHFgcMaWfcBJC31kwwQmdK";
         String bucketName = "soft1721";
         String filedir = "article_img/";
         // 获取文件名

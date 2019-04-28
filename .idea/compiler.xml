@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jianyue-api" />
+        <module name="jsoup" />
         <module name="quickstart" />
         <module name="spring-boot-mybatis" />
         <module name="upload" />
@@ -15,6 +16,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="jianyue-api" target="1.8" />
+      <module name="jsoup" target="1.8" />
       <module name="quickstart" target="1.8" />
       <module name="spring-boot-mybatis" target="1.8" />
       <module name="upload" target="1.8" />
@@ -24,6 +26,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="jianyue-api" options="-parameters" />
+      <module name="jsoup" options="-parameters" />
       <module name="quickstart" options="-parameters" />
       <module name="spring-boot-mybatis" options="-parameters" />
       <module name="upload" options="-parameters" />

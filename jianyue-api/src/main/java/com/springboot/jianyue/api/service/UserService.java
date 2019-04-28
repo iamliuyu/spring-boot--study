@@ -15,6 +15,8 @@ public interface UserService {
     //根据用户id获取用户
     User getUserById(int userId);
 
+    List<User> getAllUser();
+
     //修改用户信息
     void updateUser(User user);
 

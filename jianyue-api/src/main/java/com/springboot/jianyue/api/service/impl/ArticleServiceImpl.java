@@ -1,5 +1,6 @@
 package com.springboot.jianyue.api.service.impl;
 
+import com.github.pagehelper.Page;
 import com.springboot.jianyue.api.entity.Article;
 import com.springboot.jianyue.api.entity.vo.ArticleVO;
 import com.springboot.jianyue.api.mapper.ArticleMapper;
@@ -22,8 +23,8 @@ public class ArticleServiceImpl implements ArticleService {
     private CommentMapper commentMapper;
 
     @Override
-    public List<ArticleVO> selectAll() {
-        List<ArticleVO> articles = articleMapper.selectAll();
+    public Page<ArticleVO> selectAll() {
+        Page<ArticleVO> articles = articleMapper.selectAll();
         for (ArticleVO articleVO:articles) {
             //处理时间
             articleVO.setCreateTime(articleVO.getCreateTime().substring(0, articleVO.getCreateTime().length()-2));

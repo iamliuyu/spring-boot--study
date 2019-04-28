@@ -1,5 +1,6 @@
 package com.springboot.jianyue.api.controller;
 import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.springboot.jianyue.api.entity.Article;
 import com.springboot.jianyue.api.entity.Follow;
 import com.springboot.jianyue.api.entity.vo.ArticleVO;
@@ -33,8 +34,8 @@ public class ArticleController {
     @GetMapping(value = "/list")
     public ResponseResult getAll(@RequestParam(defaultValue = "1") int pageNo, @RequestParam(defaultValue = "10") int pageSize) {
         PageHelper.startPage(pageNo,pageSize);
-        List<ArticleVO> articleList = articleService.selectAll();
-        return ResponseResult.success(articleList);
+        PageInfo<ArticleVO> articleVOPageInfo = new PageInfo<>(articleService.selectAll());
+        return ResponseResult.success(articleVOPageInfo);
     }
 
 //    @GetMapping(value = "/{aId}")

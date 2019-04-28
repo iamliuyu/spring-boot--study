@@ -1,6 +1,8 @@
 package com.springboot.jianyue.api.controller;
 
 import com.aliyun.oss.OSSClient;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.springboot.jianyue.api.entity.User;
 import com.springboot.jianyue.api.entity.dto.UserDTO;
 import com.springboot.jianyue.api.service.RedisService;
@@ -40,6 +42,29 @@ public class UserController {
         userService.updateUser(user);
     }
 
+    //禁用账号
+    @RequestMapping(value = "/disable", method = RequestMethod.PUT)
+    public void disableAccount(@RequestParam("userId") int userId) {
+        User user = userService.getUserById(userId);
+        user.setStatus((short) 0);
+        userService.updateUser(user);
+    }
+
+    //启用账号
+    @RequestMapping(value = "/enable", method = RequestMethod.PUT)
+    public void enableAccount(@RequestParam("userId") int userId) {
+        User user = userService.getUserById(userId);
+        user.setStatus((short) 1);
+        userService.updateUser(user);
+    }
+
+    @RequestMapping(value = "/all", method = RequestMethod.GET)
+    public ResponseResult getAllUser(@RequestParam(defaultValue = "1") int pageNo, @RequestParam(defaultValue = "5") int pageSize) {
+        PageHelper.startPage(pageNo,pageSize);
+        PageInfo<User> userPageInfo = new PageInfo<>(userService.getAllUser());
+        return ResponseResult.success(userPageInfo);
+    }
+
     @PostMapping(value = "/sign_in")
     public ResponseResult signIn(@RequestBody UserDTO userDTO) {
         System.out.println(userDTO);
@@ -64,7 +89,7 @@ public class UserController {
     public String ossUpload(@RequestParam("file") MultipartFile sourceFile, @RequestParam("userId") int userId) {
         String endpoint = "http://oss-cn-shanghai.aliyuncs.com";
         String accessKeyId = "LTAInRViWgyoni06";
-        String accessKeySecret = "xxx";
+        String accessKeySecret = "Pf9dgZR0MHFgcMaWfcBJC31kwwQmdK";
         String bucketName = "soft1721";
         String filedir = "avatar/";
         // 获取文件名
